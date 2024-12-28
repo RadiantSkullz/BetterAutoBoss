@@ -14,15 +14,6 @@ if game.PlaceId == 10450270085 or game.PlaceId == 119359147980471 then
 end
 
 
--- Locals --
-
-local buff = false --if this is true it will say /buff in chat activating all buffs you have--
-
-local AutoPromote = false -- If true whenever you join a game then it will see if you can promote and it will promote --
-
-local FPSBoost = false -- if on it will boost your fps
----------------------------------------
-
 if FPSBoost then
     local playerGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
